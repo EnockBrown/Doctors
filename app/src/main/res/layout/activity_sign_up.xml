@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group1"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="@dimen/marginnleftrigt"
+        android:layout_marginRight="@dimen/marginnleftrigt"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:hint="@string/fname"
+            android:id="@+id/edi_firsname"
+            android:textSize="@dimen/text_size"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:hint="@string/sname"
+            android:id="@+id/edi_secname"
+            android:layout_marginTop="@dimen/marginn_top"
+            android:textSize="@dimen/text_size"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:hint="@string/mobilenumber"
+            android:id="@+id/ed_mobilenum"
+            android:layout_marginTop="@dimen/marginn_top"
+            android:textSize="@dimen/text_size"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:hint="@string/email"
+            android:id="@+id/edi_email"
+            android:layout_marginTop="@dimen/marginn_top"
+            android:textSize="@dimen/text_size"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an Account"
+            android:textSize="12sp"
+            android:paddingBottom="4sp"
+            android:id="@+id/imgbtn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rectangle"
+            />
+    </LinearLayout>
+
+</LinearLayout>

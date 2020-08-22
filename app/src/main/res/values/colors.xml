@@ -3,4 +3,68 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="bg">#EEEEEE</color>
+    <color name="blac">#000</color>
+    <color name="colorAccen">#807C76</color>
+    <color name="RED">#F15050</color>
+    <color name="reddark">#d43c3c</color>
+    <color name="yellow">#EED45A</color>
+    <color name="darkyellow">#d4bb46</color>
+    <color name="lime">#BCE24A</color>
+    <color name="limedark">#9dbf35</color>
+    <color name="green">#48D26B</color>
+    <color name="DARKGREEN">#36b957</color>
+    <color name="BLUE">#48DFE1</color>
+    <color name="DARKBLUE">#37c4c6</color>
+    <color name="darkbluedark">#417eca</color>
+    <color name="darkviolet">#7E50F1</color>
+    <color name="darkvioletdark">#683dd4</color>
+    <color name="VIOLET">#D65AEE</color>
+    <color name="VIOLETDARK">#b33ec9</color>
+    <color name="black">#000</color>
+    <color name="overlaybar">#0e0d0e</color>
+    <color name="namecolor">#4f0e0d0e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="overlaybackground">#7f333639</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colobtnbg">#00ffff</color>
+    <color name="background">#EEE</color>
+
+    <!-- intr screens colors -->
+    <!-- dots inactive colors -->
+
+
+    <!-- Screens background color-->
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#807C76</color>
+    <color name="dot_dark_screen2">#807C76</color>
+    <color name="dot_dark_screen3">#807C76</color>
+
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#201A15</color>
+    <color name="dot_light_screen2">#201A15</color>
+    <color name="dot_light_screen3">#201A15</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+
+    </array>
+    <!-- end intro screen colors -->
 </resources>

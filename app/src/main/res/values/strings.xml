@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Doctors</string>
+
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="fname">First Name</string>
+    <string name="sname">Second Name</string>
+    <string name="email">Email</string>
+    <string name="forgtpassword">Forgot Password</string>
+
+    <string name="welcometuitorial">A world of free delivery of diseases with\n free medical insurance cover.</string>
+    <string name="welcometuitorial8">I am the rarest big cat on Earth</string>
+    <string name="welcometuitorial7">Get your friends onboard and earn from \ntheir subsequent purchases,for life.</string>
 </resources>
